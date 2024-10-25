@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function NotFound() {
     return (
-        <div className='error__page flex flex-col md:flex-row items-center justify-center'>
+        <div className='error__page flex flex-col md:flex-row items-center justify-center dark:text-white'>
             <div className='text-center'>
                 <h1>404</h1>
                 <h3 className='text-5xl'>Oops!</h3>
