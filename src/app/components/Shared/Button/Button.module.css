@@ -1,0 +1,91 @@
+.button {
+  border: 0;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 5px;
+  transition: .3s;
+  white-space: nowrap;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: 1s;
+  position: relative;
+  transition: 1s;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+}
+
+.button__main {
+  transition: 1s;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #61b4e4;
+  border: 1px solid rgb(46, 46, 46);
+}
+
+.button__main:hover {
+  background-color: #000;
+}
+:global(.dark) .button__main{
+  background-color: #141414;
+}
+
+.button__primary {
+  background-color: #D4AF37;
+  border-radius: 10px;
+}
+
+.button__primary:hover {
+  background-color: #af943b;
+}
+
+.button__secondary {
+  background-color: #1D1D1D;
+}
+
+.button__secondary:hover {
+  background-color: #100e0e;
+}
+
+.button__warning {
+  background-color: #f8b352;
+}
+
+.button__success {
+  background-color: #25D366;
+}
+
+.button__warning:disabled {
+  background-color: #af8f62;
+}
+
+.button__dark,
+.button__dark a {
+  background-color: black;
+  color: white;
+}
+
+.button__dark:disabled {
+  background-color: rgb(53, 53, 53);
+}
+
+.button__danger,
+.button__danger a {
+  background-color: red;
+  color: white;
+}
+
+.button__small {
+  width: 35px;
+  height: 35px;
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}

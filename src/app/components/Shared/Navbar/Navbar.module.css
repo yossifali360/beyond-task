@@ -1,0 +1,13 @@
+.links {
+	@apply md:right-0 transition-all duration-1000 md:duration-0 md:flex-row flex flex-col items-center pt-20 md:pt-0 rounded-lg border-[#00000074] gap-8 text-lg fixed  md:relative h-[100vh] w-[70%] md:w-fit md:h-auto  md:bg-transparent z-40 top-0 md:top-0 border md:border-0 ;
+}
+.links a {
+	color: #000000;
+	transition: 0.5s;
+}
+.links a:hover {
+	color: #ddb762;
+}
+.links :global(.active) {
+	color: #ddb762 !important;
+}

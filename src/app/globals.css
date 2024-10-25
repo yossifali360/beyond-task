@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark body {
+  background: #0a0a0a;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.error__page {
+  height: 80vh;
+  min-height: 500px;
+}
+
+
+.error__page a:hover {
+  background-color: rgb(80, 137, 229);
+}
+
+.error__page h1 {
+  font-size: 120px;
+}
